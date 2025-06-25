@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="results-container">
+        <h1>Your Interview Results</h1>
+        
+        <div class="stats-box">
+            <h2>Your Performance Metrics</h2>
+            <p><strong>Gender Detected:</strong> <span id="resultGender">Female</span></p>
+            <p><strong>Age Detected:</strong> <span id="resultAge">32</span></p>
+            <p><strong>Time Smiling:</strong> <span id="resultSmile">68%</span></p>
+            <p><strong>Emotion:</strong> <span id="resultEmotion">Neutral</span></p>
+            <p><strong>Negative Emotions Detected:</strong> <span id="resultNegative">42%</span></p>
+        </div>
+        
+        <div class="decision-box">
+            <h2>Hiring Decision</h2>
+            <div id="decisionResult" class="rejected">
+                <p>We regret to inform you that you have not been selected for this position.</p>
+            </div>
+        </div>
+        
+        <div class="bias-info">
+            <h2>AI interviews aren't fair</h2>
+            <ul>
+                <li>Age detection algorithms have higher error rates for women and darker-skinned individuals</li>
+                <li>Algorithms can favor certain accents, genders, or educational backgrounds (Zhou, 2024; Albaroudi, 2024).</li>
+                <li>AI tools like HireVue offer little transparency on rejection reasons (Lytton, 2024).</li>
+            </ul>
+        </div>
+        
+        <button id="restartBtn">Try Again</button>
+    </div>
+
+    <script src="results.js"></script>
+</body>
+</html>
