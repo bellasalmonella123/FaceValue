@@ -8,7 +8,7 @@ body {
     background-color: #f5f5f5;
 }
 
-.container, .interview-container, .results-container {
+.container, .interview-container{
     background: white;
     padding: 30px;
     border-radius: 8px;
@@ -23,14 +23,6 @@ h1 {
 h2 {
     color: #34495e;
     margin-top: 25px;
-}
-
-.permission-box, .stats-box, .decision-box, .bias-info {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border-left: 4px solid #3498db;
 }
 
 button {
@@ -68,36 +60,4 @@ button:hover {
     background: #f0f0f0;
     padding: 15px;
     border-radius: 5px;
-}
-
-#decisionResult {
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#decisionResult.rejected {
-    background: #ffebee;
-    color: #c62828;
-    border-left: 4px solid #c62828;
-}
-
-#decisionResult.hired {
-    background: #e8f5e9;
-    color: #2e7d32;
-    border-left: 4px solid #2e7d32;
-}
-
-.disclaimer {
-    font-size: 14px;
-    color: #666;
-    margin-top: 30px;
-    padding: 10px;
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-}
-
-ul {
-    margin-left: 20px;
 }
